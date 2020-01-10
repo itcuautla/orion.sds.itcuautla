@@ -1,0 +1,53 @@
+#form_sem{
+    height: 700px;
+    width: 95%;
+}
+
+#form_sem>div:nth-child(1){
+    height: 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#form_sem>div:nth-child(2){    
+    height: 80%;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2), 0 4px 4px 0 rgba(0, 0, 0, 0.2);
+    padding: 20px;
+}
+
+#form_sem>div:nth-child(3){    
+    height: 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#form_sem>div:nth-child(3) button{
+    height: 45%;
+    width: 40%;
+    border-radius: 4px;
+    align-content: center;
+    background: #7456F1;
+    border: none;
+    font-family: "Roboto", sans-serif;
+    color: #ffffff;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2), 0 4px 4px 0 rgba(0, 0, 0, 0.2);
+
+}
+
+#form_sem>div:nth-child(3) button:hover{
+    background: blue;
+}
+
+input:disabled{
+    background-color: white;
+}
+
+input{
+    font-family: "Roboto";
+    font-weight: 400;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    padding: 5px;
+}
+

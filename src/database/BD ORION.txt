@@ -1,0 +1,13 @@
+CREATE TABLE horarios_suspension (id SERIAL NOT NULL PRIMARY KEY, inicio_suspension_semaforo TIME, inicio_proceso_semaforo TIME);
+CREATE TABLE areas_geografica (id_semaforo INT, archivo_json JSON);
+CREATE TABLE tiempos_luces_semaforo (id SERIAL NOT NULL PRIMARY KEY, tiempo_verde INT, tiempo_amarillo INT, tiempo_rojo INT);
+CREATE TABLE semaforos (id SERIAL NOT NULL PRIMARY KEY, nombre VARCHAR(15), estado_semaforo BOOLEAN, tiempo_inicio INT, longitud DECIMAL(35,25), latitud DECIMAL(35,25), id_horario INT, id_luces INT, fecha_creacion TIMESTAMP DEFAULT CURRENT_TIMESTAMP);
+CREATE TABLE usuarios (correo VARCHAR(25), contrasena VARCHAR(25));
+
+ALTER TABLE semaforos ADD FOREIGN KEY(id_horario) REFERENCES horarios_suspension(id);
+ALTER TABLE areas_geografica ADD FOREIGN KEY(id_semaforo) REFERENCES semaforos(id);
+ALTER TABLE semaforos ADD FOREIGN KEY(id_luces) REFERENCES tiempos_luces_semaforo(id);
+
+CREATE VIEW semaforos_full AS SELECT s.id, s.nombre, s.estado_semaforo, s.tiempo_inicio, h.inicio_suspension_semaforo, h.inicio_proceso_semaforo, s.longitud, s.latitud, t.tiempo_verde, t.tiempo_amarillo, t.tiempo_rojo, a.archivo_json FROM semaforos s, horarios_suspension h, tiempos_luces_semaforo t, areas_geografica a WHERE h.id=s.id_horario AND t.id=s.id_luces AND s.id=a.id_semaforo ORDER BY s.id ASC;
+
+INSERT INTO usuarios (correo, contrasena) VALUES ('andres@gmail.com', '1234');

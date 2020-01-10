@@ -1,0 +1,26 @@
+header {
+    height: 50px;
+    background: #7456F1;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+header>div{
+    margin-left: 15px;
+    height: 30px;
+    font-size: 1.6em;
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+    color: #fff;
+}
+
+header>i{
+    margin-right: 18px;
+
+}
+
+.tippy-content{
+    background-color: white;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2), 0 4px 4px 0 rgba(0, 0, 0, 0.2);
+
+}

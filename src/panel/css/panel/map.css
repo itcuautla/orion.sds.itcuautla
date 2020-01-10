@@ -1,0 +1,16 @@
+#map{
+    width: 100%;
+    height: 95vh;
+}
+
+.leaflet-pm-toolbar .leaflet-pm-icon-marker{
+    background-image: url("../../img/semaforo.png");
+}
+
+.leaflet-interactive{
+    cursor: grab;
+}
+
+.leaflet-marker-icon {
+    cursor: pointer;
+}

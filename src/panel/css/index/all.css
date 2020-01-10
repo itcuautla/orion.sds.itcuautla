@@ -1,0 +1,14 @@
+@import "form_login.css";
+@import "container.css";
+@import "banner.css";
+@import "info.css";
+
+body{
+    margin: 0%;
+}
+
+main{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+}

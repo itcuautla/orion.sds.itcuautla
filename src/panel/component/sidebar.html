@@ -1,0 +1,97 @@
+<div id="sidebar" class="leaflet-sidebar collapsed">
+
+
+    <!-- nav tabs -->
+    <div class="leaflet-sidebar-tabs">
+        <!-- top tabs -->
+        <ul role="tablist">
+            <li><a href="#home" role="tab"><i class="fa fa-bars active"></i></a></li>
+        </ul>
+
+        <!-- bottom tabs -->
+        <ul role="tablist">
+            <li><a  href=""><i class="fa fa-github"></i></a></li>
+            <li onclick="help()"><a><i class="fa fa-question"></i></a></li>
+
+
+
+        </ul>   
+        
+       
+
+
+    </div>
+
+    <!-- panel content -->
+    <div class="leaflet-sidebar-content">
+
+        
+
+        <div class="leaflet-sidebar-pane" id="home">
+
+            <h1 class="leaflet-sidebar-header">
+                Registro de semaforos
+                <span class="leaflet-sidebar-close"><i class="fa fa-caret-left"></i></span>
+            </h1>
+
+            
+            
+        <!-- Formulario para registrar un semaforo -->
+        <form id="form_sem">
+            <div>
+                <input type="text" placeholder="Latitud" disabled>
+                <input type="text" placeholder="Longitud" disabled>
+            </div>
+
+            <div>
+                <div class="mui-textfield">
+                    <input type="text" required>
+                    <label>Nombre</label>
+                </div>
+
+                <div class="mui-textfield">
+                    <input type="number" placeholder="s" required>
+                    <label>Tiempo verde</label>
+                </div>
+
+                <div class="mui-textfield">
+                    <input type="number" placeholder="s" required>
+                    <label>Tiempo amarillo</label>
+                </div>
+
+                <div class="mui-textfield">
+                    <input type="number" placeholder="s" required>
+                    <label>Tiempo rojo</label>
+                </div>
+
+                <div class="mui-textfield">
+                    <input class="format-time" type="text" placeholder="hh:mm:ss" required>
+                    <label>hora de inicio</label>
+                </div>
+
+                <div class="mui-textfield">
+                    <input class="format-time" type="text" placeholder="hh:mm:ss" required>  
+                    <label>hora suspension</label>
+                </div>
+
+            </div>
+
+            <div>
+                <button id="save_sem">Registrar</button>
+                <button id="del_sem">Eliminar</button>
+            </div>
+
+        </form>
+                
+            
+        </div>
+
+
+    </div>
+
+
+   
+
+
+
+</div>
