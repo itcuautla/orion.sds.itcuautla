@@ -26,20 +26,8 @@
 
     }
 
-    #app_html>section>img{
-        height: 45%;
-        padding: 0;
-    }
+  
 
 }
 
 
-@media screen and (max-width: 1200px) and (min-width: 450px) {
-
-    #app_html>section>img{
-        height: 60%;
-        padding: 0;
-    }
-
-
-}

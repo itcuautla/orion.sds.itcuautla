@@ -4,6 +4,7 @@
     #login_html{
         flex-direction: column;
         height: 700px;
+        width: 100%;
     }
 
     #banner{
