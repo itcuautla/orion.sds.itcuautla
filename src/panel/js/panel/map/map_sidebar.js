@@ -5,7 +5,7 @@ var sidebar = L.control.sidebar(
     }).addTo(map)
 
  // Evento que se dispara cuando el sidebar se habre
-sidebar.on('content', function (ev) {
+sidebar.on('content', function (e) {
   
 
 });

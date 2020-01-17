@@ -1,0 +1,45 @@
+
+@media only screen and (max-width: 1200px) 
+{
+
+    #app_html{
+        height: 700px;
+    }
+
+    #app_html>section>div>img{
+        display: none;
+    }
+
+    #app_html>section{
+        flex-direction: column;
+        width: 90%;
+        height: 90%;
+        align-items: center;
+        justify-content: center;
+
+    }
+
+    #app_html>section>div{
+        height: 55%;
+        width: 100%;
+        justify-content: flex-start;
+
+    }
+
+    #app_html>section>img{
+        height: 45%;
+        padding: 0;
+    }
+
+}
+
+
+@media screen and (max-width: 1200px) and (min-width: 450px) {
+
+    #app_html>section>img{
+        height: 60%;
+        padding: 0;
+    }
+
+
+}

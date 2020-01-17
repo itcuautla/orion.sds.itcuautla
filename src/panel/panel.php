@@ -76,21 +76,21 @@
     <div id="map"></div>
     
     <!-- Sidebar del mapa -->
-     
     <?php include('component/sidebar.html'); ?>
 
 
 
 </body>
 
-<script src="js/global_variables.js"></script>
-<script src="js/request.js"></script>
-<script src="js/panel/form_sem.js"></script>
-<script src="js/panel/map/map_configuraton.js"></script>
-<script src="js/panel/map/map_sidebar.js"></script>
-<script src="js/panel/map/map_events.js"></script>
-<script src="js/panel/user_session.js"></script>
-<script src="js/panel/help.js"></script>
+    <!-- Script Locales -->
+    <script src="js/global_variables.js"></script>
+    <script src="js/request.js"></script>
+    <script src="js/panel/form_sem.js"></script>
+    <script src="js/panel/map/map_configuraton.js"></script>
+    <script src="js/panel/map/map_sidebar.js"></script>
+    <script src="js/panel/map/map_events.js"></script>
+    <script src="js/panel/user_session.js"></script>
+    <script src="js/panel/help.js"></script>
 
 
 </html>

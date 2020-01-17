@@ -1,48 +1,51 @@
+//Funcion que se ejecuta para darle un intro rapido al usuario de como funciona el panel de control.
 function help(){
     
+//Objeto de la libreria Intro.js
 let menu=introJs()
 
+// Configuracion de etiquetas
 menu.setOption("nextLabel", "siguiente");
 menu.setOption("prevLabel", "anterior");
 menu.setOption("skipLabel", "saltar");
 menu.setOption("doneLabel", "terminar");
 
 
-
+//Pasos del intro
 menu.addSteps([
 {
     element: document.querySelector('.leaflet-control-zoom-in'),
-    intro: "Botón de zoom in: hace un zoom hacia dentro en el mapa",
+    intro: "Zoom in: hace un zoom hacia dentro en el mapa",
     position: 'right'
 },
 {
     element:document.querySelector('.leaflet-control-zoom-out'),
-    intro: "Botón de zoom out: hace un zoom hacia afuera en el mapa",
+    intro: "Zoom out: hace un zoom hacia afuera en el mapa",
     position: 'right'
 },
 {
     element:document.querySelector('.leaflet-pm-icon-marker'),
-    intro: "Botón de marcador: activa el marcador del semaforo para ser colocado en el mapa",
+    intro: "Marcador: activa el marcador del semaforo para ser colocado en el mapa",
     position: 'right'
 },
 {
     element:document.querySelector('.leaflet-pm-icon-polygon'),
-    intro: "Botón de poligono: activa el modo dibujar poligono en el mapa",
+    intro: "Dibuja poligono: activa el modo dibujar un area geografica(poligono) en el mapa",
     position: 'right'
 },
 {
     element:document.querySelector('.leaflet-control-fullscreen-button'),
-    intro: "Botón pantalla completa: activa el modo pantalla completa sobre el mapa",
+    intro: "Pantalla completa: activa el modo pantalla completa sobre el mapa",
     position: 'right'
 },
 {
     element:document.querySelector('.geocoder-control-input'),
-    intro: "Botón busqueda: busca lugares, municipios, estados en el mapa",
+    intro: "Busqueda: busca lugares, municipios, estados en el mapa",
     position: 'right'
 },
 {
     element:document.querySelector('.basemaps'),
-    intro: "Botón base de mapa: activa diferentes estilos de mapas",
+    intro: "Base de mapa: activa diferentes estilos de mapas",
     position: 'right'
 },
 {
@@ -52,7 +55,7 @@ menu.addSteps([
 },
 {
     element:document.getElementById('form_sem').children[0],
-    intro: "Latitud, Longitud: coordenadas geograficas del marcador del mapa",
+    intro: "Latitud, Longitud: coordenadas geograficas del marcador de un semaforo",
     position: 'right'
 },
 {
@@ -67,17 +70,18 @@ menu.addSteps([
 }
 ]);
 
-
+//Abre sidebar
 menu.onbeforechange(function(e){
     if(e.id==='form_sem'){
         sidebar.open('home')
     }
 })
-
+//Cierra sidebar al terminar intro
 menu.oncomplete(function(){
     sidebar.close('home')
 });
 
+//Inicia el intro
 menu.start()
 
 

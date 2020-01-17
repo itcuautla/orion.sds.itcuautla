@@ -3,6 +3,7 @@
 
 //Mosaicos o Basemaps para mostrar en el mapa
   var basemaps = [
+    
     //Basemaps de Google Maps
     L.tileLayer('http://{s}.google.com/vt/lyrs=m&x={x}&y={y}&z={z}',{
       maxZoom: 20,

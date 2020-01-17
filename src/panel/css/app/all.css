@@ -1,0 +1,40 @@
+#app_html{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(250,250,250);
+    background: linear-gradient(218deg, rgba(250,250,250,1) 0%, rgba(255,255,255,1) 0%, rgba(18,174,255,1) 80%);
+}
+
+
+#app_html>section{
+    height: 70%;
+    width: 70%;
+    display: flex;
+    align-items: center;
+}
+
+#app_html>section>div>p{
+    text-align: justify;
+}
+
+#app_html>section>div{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    color: white;
+}
+
+#app_html>section>div>img{
+    height: 40%;
+}
+
+#app_html>section>img{
+    height: 80%;
+    padding: 30px;
+}

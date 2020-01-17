@@ -2,13 +2,12 @@
 @import "container.css";
 @import "banner.css";
 @import "info.css";
+@import "media.css";
 
-body{
-    margin: 0%;
-}
 
-main{
+#login_html{
     width: 100%;
-    height: 100vh;
+    height: 100%;
     display: flex;
 }
+
