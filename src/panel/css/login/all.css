@@ -2,7 +2,6 @@
 @import "container.css";
 @import "banner.css";
 @import "info.css";
-@import "media.css";
 
 
 #login_html{
@@ -11,3 +10,41 @@
     display: flex;
 }
 
+@media only screen and (max-width: 1200px) 
+{
+
+    #login_html{
+        flex-direction: column;
+        height: 700px;
+        width: 100%;
+    }
+
+    #banner{
+        height: 30%;
+        width: 100%;
+    }
+
+    #banner div{
+        height: 80%;
+    }
+
+     
+    #banner div p{
+        font-size: 15px;
+    }
+
+    #container{
+        height: 70%;
+        width: 100%;
+    }
+
+
+    #container>div{
+        height:80%;
+    }
+    
+    #container footer{
+        height:20%;
+    }
+
+}
