@@ -1,4 +1,4 @@
-![alt](src/panel/img/orion_black.png)
+<img src="src/panel/img/orion_black.png" height="300" />
 
 ## Sistema Digital de Semáforos
 
