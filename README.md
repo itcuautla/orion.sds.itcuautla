@@ -1,3 +1,5 @@
+![alt](src/panel/img/orion_black.png)
+
 ## Sistema Digital de Semáforos
 
 
