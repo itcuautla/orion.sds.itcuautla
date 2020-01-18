@@ -1,20 +1,21 @@
 ## Sistema Digital de Semáforos
 
-El sistema ORION es una herramienta de apoyo digital
-a los semáforos existentes, mostrando al usuario el estado(color)
-del semáforo en tiempo real, el cual podrá ser usado en cualquier
-momento principalmente cuando un semáforo se encuentre en mal estado.
+
+El sistema digital de semáforos fue nombrado ORION en honor a las tres estrellas ALNITAK, ALNILAM, MINTAKA de la constelación ORION que forman la particular figura de tres luces secuenciales iguales a las de un semáforo tradicional.
+ORION sds es una red de semaforos digitales virtualizados la cual tiene como objetivo ser una herramienta digital de apoyo para los semaforos existentes en las ciudades, mostrando al usuario el estado(color) del semáforo mientras conduce en tiempo real, el semáforo digital puede ser usado en cualquier momento principalmente cuando un semáforo se encuentre averiado.
+
 
 #### Acerca
 
-El sistema ORION fue desarrollado por alumnos del Tecnológico Nacional de México campus Cuautla
-en el programa de modalidad servicio social. El cual tiene como objetivo brindar un bien social al publico en general haciendo uso de las tecnologias de la información.
+El sistema digital de semáforos ORION fue desarrollado por alumnos del Tecnológico Nacional de México campus Cuautla
+en el programa de modalidad servicio social. El cual tiene como objetivo brindar un bien social.
+
+---
 
 #### Colaboradores
 
-> Herrera Pliego Andres
-> Chaga Cruz Angel David
-> Gonzalez Vazquez Alfredo
-> Braulio Perez Alberto
+* Herrera Pliego Andres
+* Chaga Cruz Angel David
+* Gonzalez Vazquez Alfredo
+* Braulio Perez Alberto
 
-###### **Proyecto open source**
