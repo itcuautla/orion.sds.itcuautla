@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="format-detection" content="telephone=no">
+        <meta name="msapplication-tap-highlight" content="no">
+        <meta name="viewport" content="initial-scale=1, width=device-width, viewport-fit=cover">
+        <title>orion</title>
+     
+        <!-- Libreria leaflet -->
+        <link rel="stylesheet" href="https://unpkg.com/leaflet@1.6.0/dist/leaflet.css" />
+        <script src="https://unpkg.com/leaflet@1.6.0/dist/leaflet.js"></script>
+
+        <script src="https://cdn.jsdelivr.net/npm/leaflet-basemaps@0.3.4/L.Control.Basemaps-min.min.js"></script>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet-basemaps@0.3.4/L.Control.Basemaps.css">
+        <!-- Libreria turf -->
+        <script src="js/library/turf.min.js"></script>
+        <!-- Libreria pop motion -->
+        <script src="js/library/popmotion.global.min.js"></script>
+
+        <!--Libreria noty-->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/noty/3.1.4/noty.css" integrity="sha256-p+PhKJEDqN9f5n04H+wNtGonV2pTXGmB4Zr7PZ3lJ/w=" crossorigin="anonymous" />
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/noty/3.1.4/noty.js" integrity="sha256-xzc5zu2WQtJgvCwRGTXiHny3T+KQZa6tQF24RVDRlL0=" crossorigin="anonymous"></script>
+
+        <!-- Estilos  -->
+        <link rel="stylesheet" type="text/css" href="css/index.css">
+    </head>
+    <body>
+
+        <div id="splashscreen"><img src="img/logo.png"></div>
+
+        <main>
+            <section id="tabs">
+                <div ><img src="img/semaforo.svg"> </div>
+
+                <div style="background-color: rgba(0, 0, 0, 0.1) ;"> <img src="img/map.svg"></div>    
+            </section>
+
+            <div id="mode_sem" style="display: none;">
+
+                <div class="bar_bg" style="display: none;">
+                    <div class="bar">
+                    </div> 
+                </div>
+
+                <section id="car_driving">
+                    <img src="img/car.gif">
+                    <p>Continúa conduciendo</p>
+                </section>
+
+
+            </div>
+
+
+            <div id="mode_map" class="bar_bg">
+                <section id="map"></section>
+                <div class="bar" style="display: none;"> </div> 
+            </div>
+      
+               
+        </main>
+
+    </body>
+
+
+    
+    <script src="cordova.js"></script>
+    <script src="js/map.js"></script>
+    <script src="js/request.js"></script>
+    <script src="js/index.js"></script>
+    <script src="js/geolocation.js"></script>
+    <script src="js/animation.js"></script>
+    <script src="js/tabs.js"></script>
+    <script src="js/network.js"></script>
+    <script src="js/speak.js"></script>
+    <script src="js/events.js"></script>
+    
+</html>

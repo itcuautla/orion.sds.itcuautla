@@ -1,0 +1,11 @@
+#splashscreen{
+    width: 100%;
+    height: 100%;
+    background-color:rgb(48,48 , 48);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#splashscreen img{
+    height: 30%;
+}

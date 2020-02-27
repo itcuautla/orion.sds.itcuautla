@@ -1,0 +1,64 @@
+#mode_map{
+    width: 100%;
+    height: 90%;
+    display: flex;
+}
+
+    #map{
+        width: 100%;
+        height: 100%;
+    }
+
+    #mode_map>div{
+        width: 15%;
+        height: 100%;
+    }
+
+
+
+#mode_sem{
+    width: 100%;
+    height: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+    #mode_sem>div{
+        height: 93%;
+        width: 93%;
+        background-color: white;
+        border-radius: 20px;
+        box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2), 0 4px 4px 0 rgba(0, 0, 0, 0.2);   
+        
+    }
+
+    #car_driving{
+        height: 93%;
+        width: 93%;
+        background-color: white;
+        border-radius: 20px;
+        box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2), 0 4px 4px 0 rgba(0, 0, 0, 0.2);   
+        
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #car_driving img{
+        width: 90%;
+    }
+
+    #car_driving p{
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        font-size: 1em;
+    }
+
+
+
+.bar{
+    background-color: white;
+}

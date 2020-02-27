@@ -1,0 +1,17 @@
+{
+  "background_color": "#FFF",
+  "display": "standalone",
+  "name": "orion",
+  "short_name": "orion",
+  "version": "com.paquete.orion",
+  "description": "SISTEMA DIGITAL DE SEMAFOROS",
+  "author": "Team ITC",
+  "icons": [
+    {
+      "src": "www/img/icon.png",
+      "type": "image/png",
+      "sizes": "undefinedxundefined"
+    }
+  ],
+  "start_url": "index.html"
+}
