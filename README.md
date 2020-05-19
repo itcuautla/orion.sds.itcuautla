@@ -9,15 +9,14 @@ ORION sds es una red de semaforos digitales virtualizados la cual tiene como obj
 
 #### Acerca
 
-El sistema digital de semáforos ORION fue desarrollado por alumnos del Tecnológico Nacional de México campus Cuautla
-en el programa de modalidad servicio social. El cual tiene como objetivo brindar un bien social.
+El sistema digital de semáforos ORION fue desarrollado por alumnos del Tecnológico Nacional de México campus Cuautla con el objetivo de brindar un bien social.
 
 ---
 
 #### Colaboradores
 
-* Herrera Pliego Andres
 * Chaga Cruz Angel David
-* Gonzalez Vazquez Alfredo
-* Braulio Perez Alberto
+* Herrera Pliego Andres
+* Pineda Mendez Rosa Elena
+
 
